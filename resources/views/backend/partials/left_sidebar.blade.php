@@ -7,7 +7,7 @@
           {{-- <img src="/images/faces/face4.jpg" alt="image"/>  --}}
           <span class="online-status online"></span> </div>
         <div class="profile-name">
-          <p class="name">Anwar Agro</p>
+          <p class="name">Anwar Yousuf Agro</p>
           <p class="designation">Admin</p>
           <div class="badge badge-teal mx-auto mt-3">Online</div>
         </div>

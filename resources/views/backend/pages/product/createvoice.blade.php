@@ -104,28 +104,28 @@
         // Let's define our first command. First the text we expect, and then the function it should call
         var commands = {
         
-          'write title *tag': function(variable){
+          'title *tag': function(variable){
 
                let vtitle = document.getElementById("vtitle");
                vtitle.value = variable;
 
           },
 
-          'write Description *tag': function(variable){
+          'Description *tag': function(variable){
 
                let descrip = document.getElementById("descrip");
                descrip.value =variable;
 
           },
             
-          'write price *tag': function(variable){
+          'price *tag': function(variable){
 
                let vprice = document.getElementById("vprice");
                vprice.value =variable;
 
           },
 
-             'write quantity *tag': function(variable){
+             'quantity *tag': function(variable){
 
                let vquantity = document.getElementById("vquantity");
                vquantity.value =variable;

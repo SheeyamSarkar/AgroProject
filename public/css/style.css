@@ -46,7 +46,7 @@ body{
  * Override CSS's
  */
  .bg-light {
-     background-color: #03A84E!important;
+     background-color: #0a7312!important;
  }
 
 
@@ -63,8 +63,8 @@ body{
 .footer-bottom{
   padding: 20px;
   margin-top: 20px;
-  background: #03A84E;
-  position: absolute;
+  background: #0a7312;
+  position: absolutev!important;
   right: 0;
   left: 0;
   bottom: 0;

@@ -4,7 +4,7 @@
   <div class="main-panel">
     <div class="content-wrapper">
       <div class="card card-body">
-        <h3>Welcome to Anwar Agro Admin Panel</h3>
+        <h3>Welcome to Anwar Yousuf Agro Admin Panel</h3>
         <br>
         <br>
         <p>
@@ -16,7 +16,7 @@
     <!-- partial:partials/_footer.html -->
     <footer class="footer">
       <div class="container-fluid clearfix">
-        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2021 <a href="" target="_blank">Anwar Agro</a>. All rights reserved.</span>
+        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2021 <a href="" target="_blank">Anwar Yousuf Agro</a>. All rights reserved.</span>
         
       </div>
     </footer>

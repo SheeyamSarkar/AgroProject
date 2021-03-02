@@ -1,3 +1,3 @@
 <footer class="footer-bottom">
-  <p class="text-center">&copy; 2021 All rights reserved | Anwar Agro</p>
+  <p class="text-center" style="color: #fff;">&copy; 2021 All rights reserved | Anwar Yousuf Agro</p>
 </footer>

@@ -1,4 +1,13 @@
 @extends('frontend.layouts.master')
+<!-- Css Styles -->
+    <link rel="stylesheet" href="{{ asset('New/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/nice-select.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/jquery-ui.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('New/css/style.css') }}" type="text/css"> 
 
 @section('content')
   <!-- Start Sidebar + Content -->
@@ -15,7 +24,7 @@
 
             @foreach ($sliders as $slider)
               <div class="carousel-item {{ $loop->index == 0 ? 'active' : '' }}">
-                <img class="d-block w-100" src="{{ asset('images/sliders/'.$slider->image) }}" alt="{{ $slider->title }}" style="height: 450px;" />
+                <img class="d-block w-100" src="{{ asset('images/sliders/'.$slider->image) }}" alt="{{ $slider->title }}" style="height: 550px;" />
 
                 <div class="carousel-caption d-none d-md-block">
                   <h5>{{ $slider->title }}</h5>
@@ -42,10 +51,47 @@
           </a>
         </div>
     </div>
-
+<!-- Categories Section End -->
+    <section class="categories">
+        <div class="container margin-top-20">
+          <div>
+            <h3> OUR CATEGORY</h3>
+          </div>
+            <div class="row"><br><br>
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{ asset('New/img/categories/cat-1.jpg') }}">
+                            <h5><a href="http://127.0.0.1:8000/products/new/search?search=orange">ORANGE</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{ asset('New/img/categories/cat-2.jpg') }}">
+                            <h5><a href="http://127.0.0.1:8000/products/new/search?search=apple">APPLE</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{ asset('New/img/categories/cat-3.jpg') }}">
+                            <h5><a href="http://127.0.0.1:8000/products/new/search?search=carrot">Carrot</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{ asset('New/img/categories/cat-4.png') }}">
+                            <h5><a href="http://127.0.0.1:8000/products/cow-milk">MILK</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{ asset('New/img/categories/cat-5.png') }}">
+                            <h5><a href="http://127.0.0.1:8000/products/new/search?search=mango">MANGO</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
   <div class='container margin-top-20'>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-top: 40px;">
         @include('frontend.partials.product-sidebar')
       </div>
 
@@ -59,6 +105,8 @@
       </div>
     </div>
   </div>
+
+
   <div>
   
     <!--Start of Tawk.to Script-->
@@ -76,6 +124,13 @@
           <!--End of Tawk.to Script-->
   
   </div>
-
+    <script src="{{ asset('New/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('New/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('New/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('New/js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('New/js/jquery.slicknav.js') }}"></script>
+    <script src="{{ asset('New/js/mixitup.min.js') }}"></script>
+    <script src="{{ asset('New/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('New/js/main.js') }}"></script>
   <!-- End Sidebar + Content -->
 @endsection

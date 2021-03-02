@@ -1,10 +1,10 @@
 <!-- partial:partials/_navbar.html -->
 <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-    <a class="navbar-brand brand-logo" href="{{ route('admin.index') }}">Anwar Agro
-    <!-- <img src="{{ asset('images/logo') }}" alt="Anwar Agro"/></a> -->
+    <a class="navbar-brand brand-logo" href="{{ route('admin.index') }}">
+    <img src="{{ asset('images/ayagro.png') }}" alt="Anwar Agro" style="height: 50px;"/></a>
     <a class="navbar-brand brand-logo-mini" href="{{ route('admin.index') }}">
-    <!-- <img src="/images/logo-mini." alt="Anwar Agro"/>-->Anwar Agro</a> 
+     <img src="{{ asset('images/ayagro.png') }}" alt="Anwar Agro"/>Anwar Yousuf Agro</a> 
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center">
     <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
